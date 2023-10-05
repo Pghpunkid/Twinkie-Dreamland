@@ -1,0 +1,71 @@
+Clyde Hill - Near Trader
+N 048 37 17.1
+W 122 59 06.6
+DD
+YX -859.625, 1202.0625
+
+Hayward Valley - Near Clyde Hill Road
+N 048 37 36.5
+W 122 59 40.8
+DD
+YX -720.625, 1036.3125
+
+Cedar Park Gas Station
+N 048 37 22.9
+W 123 00 11.1
+DD
+YX -817.375, 887.6875
+
+Highway Intersection
+N 048 36 58.9
+W 122 59 33.4
+DD 48.61636111111111 Lon:-122.99261111111112
+YX -994.125, 1074.8125
+
+----
+
+(48.61636111111111 - 48.5784) / (48.6504 - 48.5784) =
+0.0379 / 0.072 = 0.52 (52%)
+
+----
+
+0,0 -> 2048,2048
+
+
+N 48  34 42.3264
+W 123 3  3.582
+DD 48.578424, -123.050995
+YX -2048,0
+
+/*
+Public Const _MAP_SIZE As Integer = 8192
+Public _MAP_IMAGE As Image ' The map loaded from an external image file
+Public _MAP_FILENAME As String ' The filename of the map image loaded
+Public _MAP_ZOOM As Integer ' Zoom factor used by the lens
+
+' Some magic numbers obtained from the in-game grid map
+Public Const _MAP_LON_RIGHT_DD As Double = -122.9425    // -122° 56' 33"
+Public Const _MAP_LON_LEFT_DD As Double = -123.051      // -123° 3' 3.6"
+Public Const _MAP_LAT_TOP_DD As Double = 48.6504        // 48° 39' 1.44"
+Public Const _MAP_LAT_BOTTOM_DD As Double = 48.5784     // 48° 34' 42.24"
+Public Const _MAP_WIDTH_DD As Double = _MAP_LON_RIGHT_DD - _MAP_LON_LEFT_DD //
+Public Const _MAP_HEIGHT_DD As Double = _MAP_LAT_TOP_DD - _MAP_LAT_BOTTOM_DD
+
+PointXY(CInt((_MAP_SIZE / _MAP_WIDTH_DD) * (dd.Lon - _MAP_LON_LEFT_DD)), CInt((_MAP_SIZE / _MAP_HEIGHT_DD) * (dd.Lat - _MAP_LAT_BOTTOM_DD)))
+*/
+
+Top Left
+N 48° 39' 1.44"
+W 123° 3' 3.6"
+
+Top Right
+N 48° 39' 1.44"
+W 122° 56' 33"
+
+Bottom Left
+N 48° 34' 42.24"
+W 123° 3' 3.6"
+
+Bottom Right
+N 48° 34' 42.24"
+W 122° 56' 33"

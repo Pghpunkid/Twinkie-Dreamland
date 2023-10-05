@@ -1,0 +1,377 @@
+@font-face {
+    font-family: "Lato-Black";
+    src: url('../fonts/Lato-Black.ttf');
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+html, body {
+    background-color: #2C2F33;
+    font-family: 'Lato-Black';
+    color:#fff;
+}
+
+hr {
+    border-top:1px solid rgba(255,255,255,.1)
+}
+
+#cr-table {
+    font-size:14px;
+    background-color: #2C2F33;
+    color: #fff;
+}
+
+#cr-table > thead > tr > th {
+    background-color: #dea337;
+    border-color: #dea337;
+    color: #fff;
+}
+
+#cr-table > tbody > tr > td {
+    border-top: 1px solid #666;
+}
+#cr-table > tbody > tr:hover {
+    background-color: #222;
+    cursor: pointer;
+}
+
+.noteDel {
+    cursor: pointer;
+}
+#new-note-modal {
+    color: #000;
+}
+
+#nav-brand-img {
+    height: 100px!important;
+}
+
+#welcome_panel {
+    background-image: url('../images/miscreated_screen_dark.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    padding: 0px;
+    color: #fff;
+    max-height: 308px;
+    padding: 32px 16px;
+}
+
+#lastUpdate {
+    font-style: italic;
+}
+
+.bg-sunray {
+    background-color: #dea337!important;
+    color: #fff!important;
+}
+.bg-blue {
+    background-color: #215cc8!important;
+    color: #fff!important;
+}
+.btn-discord {
+    color: #fff;
+    background-color: #7289DA;
+    border-color: #7289DA;
+}
+.btn-discord:hover {
+    color: #fff;
+    background-color: #505f99;
+    border-color: #505f99;
+}
+.btn-sunray {
+    color: #fff;
+    background-color: #dea337;
+    border-color: #dea337;
+}
+.btn-sunray:hover {
+    color: #fff;
+    background-color: #bd892a;
+    border-color: #bd892a;
+}
+
+#joinModal {
+    color: #777;
+}
+
+.lead {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.h1, h1 {
+    font-size: 1.5rem;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+@media screen and (min-width: 372px) {
+    .lead {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .h1, h1 {
+        font-size: 1.75rem;
+    }
+
+    .btn-group-lg>.btn, .btn-lg {
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: .3rem;
+    }
+}
+
+.navbar-nav {
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    .lead {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .h1, h1 {
+        font-size: 2.0rem;
+    }
+    .navbar-nav {
+        text-align: left;
+    }
+    #wcContainer {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .lead {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+
+    .h1, h1 {
+        font-size: 2.5rem;
+    }
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.article {
+    border-radius: 0.3rem;
+    background-color: #23272A;
+    padding: 2rem 2rem;
+}
+
+.article_body {
+    padding-top: 15px;
+}
+
+.article_banner_image {
+    width: 100%;
+    border-radius: 0.3rem;
+}
+
+.article_banner {
+    text-align: center;
+}
+
+.article_banner > img {
+    width: 60%;
+}
+
+.article_banner > iframe {
+    width: 60%;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+.footer {
+    font-size: 14px;
+}
+
+.card-content-parent {
+    border: 1px solid #23272A;
+}
+
+.card-content {
+    background-color: #23272A;
+}
+
+.stats-player-display {
+    font-size: 32px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #dea337;
+}
+
+a.nav-link-player-portal {
+    color: #dea337;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a.nav-link-admin-panel {
+    color: #dea337;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+table.td-data-table {
+    background-color: #23272A;
+    color: #fff!important;
+    border-radius: 0.3rem;
+}
+
+table.td-data-table > tbody > tr > td {
+    border-top: none!important;
+}
+
+#player_map {
+    width: 100%;
+}
+
+#player_base_map {
+    width: 100%;
+}
+
+#player_clan_map {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+
+#weather-description {
+    font-size: 12px;
+    position: relative;
+}
+
+#wcContainer {
+    text-align: center;
+}
+#weather-center {
+    border: 1px solid #000;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 125px;
+    height: 105px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    text-align: center;
+}
+
+.restart-scroll {
+    height: 50px;
+    font-size: 12px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    top: 2px;
+}
+
+.restart-scroll div {
+    font-size: 12px;
+    position: absolute;
+    width: 130px;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    /* Starting position */
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);
+    transform:translateX(100%);
+    /* Apply animation to this element */
+    -moz-animation: marquee 7s linear infinite;
+    -webkit-animation: marquee 7s linear infinite;
+    animation: marquee 7s linear infinite;
+}
+
+/* Move it (define the animation) */
+@-moz-keyframes marquee {
+     0%   { -moz-transform: translateX(100%); }
+     100% { -moz-transform: translateX(-100%); }
+}
+
+@-webkit-keyframes marquee {
+     0%   { -webkit-transform: translateX(100%); }
+     100% { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes marquee {
+    0%   {
+        -moz-transform: translateX(100%); /* Firefox bug fix */
+        -webkit-transform: translateX(100%); /* Firefox bug fix */
+        transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%); /* Firefox bug fix */
+        -webkit-transform: translateX(-100%); /* Firefox bug fix */
+        transform: translateX(-100%);
+    }
+}
+
+#weather-icon-parent {
+    height: 43px;
+}
+
+.weather-field {
+    font-size: 14px;
+    font-family: 'Lato-Black';
+}
+
+.weather-icon {
+    width: 32px;
+}
+
+.alert-danger-custom {
+    color: #fff;
+    background-color: #ff354a;
+    border-color: #f00;
+}
+
+#player-list-info {
+    color:white;
+    text-decoration: underline;
+}
+
+#playerlist-modal {
+    color: #000;
+}
+
+#playerlist-modal-header {
+    background-color: #dea337;
+    color: #fff;
+}
+
+#login-table {
+    color: #fff;
+    background-color: #777;
+    border-radius: 3px;
+}
+
+#login-table tr,
+#login-table tr td {
+    border: none;
+}

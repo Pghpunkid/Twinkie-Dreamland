@@ -1,0 +1,5 @@
+Items.ParentGUID                     -> Items.ItemGUID
+Characters.CharacterGUID             -> Items.OwnerGUID
+Vehicles.VehicleGUID                 -> Items.OwnerGUID
+Structures.StructureGUID             -> StructureParts.StructureGUID
+StructureParts.StructurePartGUID     -> StructureParts.ParentStructurePartsGUID
