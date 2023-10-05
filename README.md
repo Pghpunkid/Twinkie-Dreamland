@@ -1,5 +1,5 @@
 # Twinkie-Dreamland
-A while back, I developed and operated a server for a game called Miscreated. The server was called Twinkie Dreamland, paying homage to Zombieland's character played by Woody Harrelson, who was on a mission to find Twinkie's in a post-apocalyptic zombie-infested world, similar to Miscreated.
+A while back, I developed and operated a server for a game called Miscreated. The server was called Twinkie Dreamland, paying homage to Zombieland's character played by Woody Harrelson, who was on a mission to find Twinkie's in a post-apocalyptic zombie-infested world, similar to Miscreated. We even added our own Twinkie to the game, just to make sure we weren't misleading anyone. And yes, they were rare.
 
 There are 5 parts to this project:
 1. Website
