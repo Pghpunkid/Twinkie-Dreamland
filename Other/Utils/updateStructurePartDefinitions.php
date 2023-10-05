@@ -2,10 +2,10 @@
 
     $itemXMLPath = '../itemXMLs';
 
-    $db_host = "ca1.pghnetwork.net";
-    $db_user = "root";
-    $db_pass = "Hunter1234";
-    $db_db = "miscreated_online";
+    $db_host = "hostname";
+    $db_user = "username";
+    $db_pass = "password";
+    $db_db = "database";
 
     $db = new Mysqli($db_host, $db_user, $db_pass, $db_db);
 

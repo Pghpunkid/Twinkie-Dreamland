@@ -2,10 +2,10 @@
 
     session_start();
 
-    $db_user    = "root";
-    $db_pass    = "Hunter1234";
-    $db_host    = "localhost";
-    $db_db      = "miscreated_online";
+    $db_user = "username";
+	$db_pass = "password";
+	$db_host = "hostname";
+	$db_db   = "database";
 
     $page_name  = $_SERVER['REQUEST_URI'];
     $host_name  = $_SERVER['HTTP_HOST'];
@@ -21,10 +21,10 @@
         $_SESSION['accountid'] = "33570969";
         $steamprofile['personaname'] = 'Pghpunkid';
 
-        $db_user = "root";
-        $db_pass = "Hunter1234";
-        $db_host = "ca1.pghnetwork.net";
-        $db_db   = "miscreated_online";
+        $db_user = "username";
+        $db_pass = "password";
+        $db_host = "hostname";
+        $db_db   = "database";
     }
 
     $steamId    = (isset($_SESSION['steamid'])?$_SESSION['steamid']:0);
