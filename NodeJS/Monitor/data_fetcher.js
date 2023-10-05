@@ -1,7 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 
-var webHost = '104.129.30.83';
+var webHost = '127.0.0.1';
 var webPort = 64002;
 var webPath = "../../API/api/v1.0/dynamic/";
 
