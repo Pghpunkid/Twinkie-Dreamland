@@ -1,7 +1,7 @@
 const config = {
-	theIP: '104.129.30.83',
+	theIP: '127.0.0.1',
 	thePORT: '64002',
-	thePASSWORD: '1!2@3#4$5%AaBbCcDdEe',
+	thePASSWORD: 'password',
 	theMESSAGE: 'MisControl RCON Success'
 };
 
