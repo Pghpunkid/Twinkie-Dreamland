@@ -2,7 +2,7 @@
 	include("class.SFTP.php");
 	include("servercfg.php");
 
-	$backupHome = "/home/phunter/MiscreatedBackups";
+	$backupHome = "/home/user/MiscreatedBackups";
 
 	//Create Server Folder
 	if (!is_dir("$backupHome/$serverIP/backups")) {
