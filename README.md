@@ -27,6 +27,8 @@ This API allows the website and other services to grab data from the MySQL serve
 
 The API is completely freestanding and is accessed by generating tokens from whitelisted IP addresses. This cannot be obtained from any other location. (See $api_whitelisted_addresses in API/V1.0/api-settings.php). Once the token is held, it can be used to get data from the API. This only ever touches the MySQL server, so as to not bombard the game server with requests.
 
+The API also served up the map images for leaflet. In order to generate the images, I leveraged GD2 from PHP to do all the work. The sliced files are not here, because when packed, they are still over a gigabyte. (See API/maps/slice.php)
+
 # Backup Processor
 This is pulled periodically and is how the player data is mapped. Base data and Player data is derived from a SQLite database the game server creates. That file is copied via SFTP to the host server (Webserver was seperate from the game server), data extracted, and re-entered into a Mysql database every 4 hours or on demand if requested. 
 
